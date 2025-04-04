@@ -2,6 +2,7 @@ services:
   - type: web
     name: travel-safety-assistant
     env: node
+    rootDir: aiaiproject
     buildCommand: npm install
     startCommand: npm start
     envVars:
