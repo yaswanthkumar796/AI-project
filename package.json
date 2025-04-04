@@ -1,0 +1,19 @@
+{
+  "name": "travel-safety-assistant",
+  "version": "1.0.0",
+  "description": "A web application for travel safety advice",
+  "main": "aiaiproject/index.js",
+  "scripts": {
+    "start": "node aiaiproject/index.js",
+    "dev": "nodemon aiaiproject/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
